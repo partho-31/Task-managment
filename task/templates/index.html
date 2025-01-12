@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tast Management</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-200">
+
+    <!-- Navbar Section  -->
+    <section class="nav-section h-auto px-5 sm:px-14">
+        <div class="main-body flex justify-between pt-10 px-4">
+            <div class="first-element">
+                <p class="text-2xl sm:text-4xl font-semibold font-mono">DASHBOARD</p>
+            </div>
+            <div class="second-element flex justify-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="sm:h-10 h-8">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
+                </svg> 
+                <div class="profile-img-holder w-1/2 bg-sky-600 border-4 border-inherit rounded-full flex justify-center content-center">                     
+                    <p class="text-xl sm:text-3xl font-semibold font-mono mx-2 mt-[-2px]" >P</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Task-Body Section  -->
+    <section class="hero-section m-5 px-20 sm:grid md:grid-cols-2 lg:grid-cols-4 gap-3">
+        <div class="part1 mb-2 grid grid-cols-3 bg-white p-2 shadow-md rounded-lg">
+            <div class="text-part col-span-2">
+                <p class="text-lg font-mono">TOTAL TASK</p>
+                <p class="text-4xl font-mono">3</p>
+                <p class="text-md font-mono">11 last month</p>
+            </div>
+            <div class="icon-part flex justify-center items-center ml-10">
+                <div class="icon-bg bg-sky-200 p-2 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-cyan-600">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.666 3.888A2.25 2.25 0 0 0 13.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 0 1-.75.75H9a.75.75 0 0 1-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 0 1-2.25 2.25H6.75A2.25 2.25 0 0 1 4.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 0 1 1.927-.184" />
+                      </svg> 
+                </div>                 
+            </div>
+        </div>
+
+        <div class="part2 mb-2 grid grid-cols-3 bg-white p-2 shadow-md rounded-lg">
+            <div class="text-part col-span-2">
+                <p class="text-lg font-mono">COPELETED TASK</p>
+                <p class="text-4xl font-mono">1</p>
+                <p class="text-md font-mono">11 last month</p>
+            </div>
+            <div class="icon-part flex justify-center items-center ml-10">
+                <div class="icon-bg bg-green-200 p-2 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-green-600">
+                        <path d="M21.731 2.269a2.625 2.625 0 0 0-3.712 0l-1.157 1.157 3.712 3.712 1.157-1.157a2.625 2.625 0 0 0 0-3.712ZM19.513 8.199l-3.712-3.712-8.4 8.4a5.25 5.25 0 0 0-1.32 2.214l-.8 2.685a.75.75 0 0 0 .933.933l2.685-.8a5.25 5.25 0 0 0 2.214-1.32l8.4-8.4Z" />
+                        <path d="M5.25 5.25a3 3 0 0 0-3 3v10.5a3 3 0 0 0 3 3h10.5a3 3 0 0 0 3-3V13.5a.75.75 0 0 0-1.5 0v5.25a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5V8.25a1.5 1.5 0 0 1 1.5-1.5h5.25a.75.75 0 0 0 0-1.5H5.25Z" />
+                      </svg>                       
+                </div>                 
+            </div>
+        </div>
+        
+        <div class="part3 mb-2 grid grid-cols-3 bg-white p-2 shadow-md rounded-lg">
+            <div class="text-part col-span-2">
+                <p class="text-lg font-mono">TASK IN PROGRASS</p>
+                <p class="text-4xl font-mono">3</p>
+                <p class="text-md font-mono">11 last month</p>
+            </div>
+            <div class="icon-part flex justify-center items-center ml-10">
+                <div class="icon-bg bg-orange-200 p-2 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-orange-600">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                      </svg>                      
+                </div>                 
+            </div>
+        </div>
+               
+        <div class="part4 mb-2 grid grid-cols-3 bg-white p-2 shadow-md rounded-lg">
+            <div class="text-part col-span-2">
+                <p class="text-lg font-mono">TASK TO DO</p>
+                <p class="text-4xl font-mono">3</p>
+                <p class="text-md font-mono">11 last month</p>
+            </div>
+            <div class="icon-part flex justify-center items-center ml-10">
+                <div class="icon-bg bg-purple-200 p-2 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-purple-600">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.666 3.888A2.25 2.25 0 0 0 13.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 0 1-.75.75H9a.75.75 0 0 1-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 0 1-2.25 2.25H6.75A2.25 2.25 0 0 1 4.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 0 1 1.927-.184" />
+                      </svg> 
+                </div>                 
+            </div>
+        </div>
+    </section>
+
+    <!-- Body Section  -->
+    <section class="body-section ">
+        <div class="main-body m-5 sm:m-5 sm:px-20 grid lg:grid-cols-2  gap-10">
+            <div class="body-part-1 bg-white p-2 shadow-md rounded-lg">
+                <p class="text-2xl font-semibold font-mono">Today's Tasks</p>
+                <div class="inner-things flex justify-between p-3">
+                    <div class="div-1 flex justify-start items-center gap-2">
+                        <div class="w-2 h-2 bg-green-600 rounded-full"></div>
+                        <p class="text-md font-semibold">Compelete project proposal</p>
+                    </div>
+                    <div class="div-2">High</div>
+                </div>
+
+                <div class="inner-things flex justify-between p-3">
+                    <div class="div-1 flex justify-start items-center gap-2">
+                        <div class="w-2 h-2 bg-yellow-600 rounded-full"></div>
+                        <p class="text-md font-semibold">Review team updates</p>
+                    </div>
+                    <div class="div-2">Normal</div>
+                </div>
+
+                <div class="inner-things flex justify-between p-3">
+                    <div class="div-1 flex justify-start items-center gap-2">
+                        <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
+                        <p class="text-md font-semibold">Prepare for client meeting</p>
+                    </div>
+                    <div class="div-2">Low</div>
+                </div>
+            </div>
+
+            <div class="body-part-2 bg-white p-2 shadow-md rounded-lg">
+                <p class="text-2xl font-semibold font-mono">All Tasks</p>
+                <div class="table-for-all-task grid grid-cols-4 p-2" >
+                    <div class="col-1">
+                        <p class="pt-3 text-sm sm:text-xl">Task Title</p>
+                        <div class="div-1 flex justify-start items-center gap-2 pt-3">
+                            <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
+                            <p class="text-sm sm:text-md font-semibold">Text Task</p>
+                        </div>
+                        <div class="div-1 flex justify-start items-center gap-2 pt-3">
+                            <div class="w-2 h-2 bg-yellow-600 rounded-full"></div>
+                            <p class="text-sm sm:text-md font-semibold">Text Task</p>
+                        </div>
+                        <div class="div-1 flex justify-start items-center gap-2 pt-3">
+                            <div class="w-2 h-2 bg-red-600 rounded-full"></div>
+                            <p class="text-sm sm:text-md font-semibold">Text Task</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <p class="pt-3 text-sm sm:text-xl">PRIORITY</p>
+                        <p class="pt-3 text-sm sm:text-md font-semibold">Low</p>
+                        <p class="pt-3 text-sm sm:text-md font-semibold">Normal</p>
+                        <p class="pt-3 text-sm sm:text-md font-semibold">High</p>
+                    </div>
+                    <div class="col-3">
+                        <p class="pt-3 text-sm sm:text-xl">TEAM</p>
+                        <div class="circule-container flex pt-0 -ml-4">
+                            <div class="profile-img-holder w-8 bg-sky-600 border-4 border-inherit rounded-full flex justify-center content-center">                     
+                                <p class="text-lg font-semibold font-mono" >P</p>
+                            </div>
+                            <div class="profile-img-holder w-8 bg-green-600 border-4 border-inherit -ml-2 rounded-full flex justify-center content-center">                     
+                                <p class="text-lg font-semibold font-mono" >P</p>
+                            </div>
+                            <div class="profile-img-holder w-8 bg-yellow-600 border-4 border-inherit -ml-2 rounded-full flex justify-center content-center">                     
+                                <p class="text-lg font-semibold font-mono" >P</p>
+                            </div>
+                        </div>
+                        <div class="circule-container flex pt-1 -ml-4">
+                            <div class="profile-img-holder w-8 bg-violet-600 border-4 border-inherit rounded-full flex justify-center content-center">                     
+                                <p class="text-lg font-semibold font-mono" >P</p>
+                            </div>
+                            <div class="profile-img-holder w-8 bg-orange-600 border-4 border-inherit -ml-2 rounded-full flex justify-center content-center">                     
+                                <p class="text-lg font-semibold font-mono" >P</p>
+                            </div>
+                            <div class="profile-img-holder w-8 bg-red-600 border-4 border-inherit -ml-2 rounded-full flex justify-center content-center">                     
+                                <p class="text-lg font-semibold font-mono" >P</p>
+                            </div>
+                        </div>
+                        <div class="circule-container flex pt-1 -ml-4">
+                            <div class="profile-img-holder w-8 bg-sky-600 border-4 border-inherit rounded-full flex justify-center content-center">                     
+                                <p class="text-lg font-semibold font-mono" >P</p>
+                            </div>
+                            <div class="profile-img-holder w-8 bg-purple-600 border-4 border-inherit -ml-2 rounded-full flex justify-center content-center">                     
+                                <p class="text-lg font-semibold font-mono" >P</p>
+                            </div>
+                            <div class="profile-img-holder w-8 bg-yellow-600 border-4 border-inherit -ml-2 rounded-full flex justify-center content-center">                     
+                                <p class="text-lg font-semibold font-mono" >P</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-4">
+                        <p class="pt-3 text-sm sm:text-xl">CREATED AT</p>
+                        <p class="pt-3 text-sm sm:text-md">9 months ago</p>
+                        <p class="pt-3 text-sm sm:text-md">9 months ago</p>
+                        <p class="pt-3 text-sm sm:text-md">9 months ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

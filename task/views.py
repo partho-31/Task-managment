@@ -9,3 +9,6 @@ def menu(request):
 
 def about(request):
     return HttpResponse("Let know about us.")
+
+def dashboard(request):
+    return render(request, "index.html")
